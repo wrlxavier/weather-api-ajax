@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet"> 
+    <title>weather api</title>
+</head>
+<body>
+    <h1>Consultando informações sobre o clima</h1>
+    <h2>Cidades brasileiras</h2>
+    <div class="search">
+        <input type="text" placeholder="Ex: cidade 1, cidade 2, cidade 3, ..." id="text-input">
+        <button id="btn">pesquisar</button>
+    </div>
+    <table id="table-data" class="hidden">
+        <tr id="title">
+            <th>Cidade</th>
+            <th>Temp</th>
+            <th>Min &#8675;</th>
+            <th>Max &#8673;</th>
+            <th>Umidade</th>
+            <th>Tempo</th>
+        </tr>
+    </table>
+    <script type="text/javascript" src="./js/main.js"></script>
+</body>
+</html>
